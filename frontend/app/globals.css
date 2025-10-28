@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
+
+a {
+  @apply text-brand-accent hover:text-blue-500;
+}
+
+.button-primary {
+  @apply inline-flex items-center justify-center rounded-lg bg-brand-accent px-4 py-2 font-semibold text-white shadow transition hover:bg-sky-500;
+}
+
+.card {
+  @apply rounded-2xl border border-slate-200 bg-white shadow-sm;
+}
